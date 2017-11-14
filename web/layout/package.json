@@ -1,0 +1,22 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "Create a responsive web page based on this layout:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass ./styles.sass -o ./ && postcss ./styles.css --use autoprefixer -o ./styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "node-sass": "^4.6.1",
+    "postcss-cli": "^4.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 10"
+  ]
+}

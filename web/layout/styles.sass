@@ -1,0 +1,80 @@
+$green: #6BCE85
+$yellow: #FEE94E
+$light_grey: #D2D2D2
+
+body,html 
+    padding: 0
+    margin: 0
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+*
+    box-sizing: border-box
+h1
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-size: 40px
+	font-style: normal
+	font-variant: normal
+	font-weight: 600
+	line-height: 46.4px
+
+p
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-size: 18px
+	font-style: normal
+	font-variant: normal
+	font-weight: 400
+	line-height: 26px
+
+table
+    border-collapse: collapse
+    font-size: 15px
+    width: 100%
+    padding: 0
+    margin: 0
+    @media screen and (max-width: 600px)
+        font-size: 12px
+    &#amount-table
+        margin-top: 20px
+        td
+            display: table-cell
+            padding: 5px 0    
+        td:nth-child(even)
+            @media screen and (max-width: 600px)
+                text-align: right !important
+    td
+        padding: 25px 0
+        @media screen and (max-width: 600px)
+            padding: 5px 0
+            display: block
+            text-align: left !important
+    td:nth-child(odd)
+        text-align: left
+        @media screen and (max-width: 600px)
+            padding: 25px 0 5px 0
+    td:nth-child(even)
+        text-align: right
+        @media screen and (max-width: 600px)
+            padding: 5px 0 25px 0
+#logo
+    margin: 20px 0 0 0
+#topSection
+    background-color: $green
+    color: white
+    padding: 20px 0
+
+#head_text
+    @media screen and (max-width: 600px)
+        font-size: 30px
+.yellow
+    color: $yellow
+.light
+    color: #B3B3B3
+    font-weight: 600
+.bb
+     border-bottom: 2px solid #F0F0F0
+.upper
+    text-transform: uppercase
+.container
+    margin: 0 auto
+    max-width: 500px
+    @media screen and (max-width: 600px)
+        padding: 0 25px
